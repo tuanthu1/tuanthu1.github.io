@@ -5911,7 +5911,7 @@ document.addEventListener('DOMContentLoaded', function () {
 document.addEventListener('DOMContentLoaded', function () {
     var telegramDiv = document.querySelector('.Instagram');
     telegramDiv.addEventListener('click', function () {
-        window.open('https://www.instagram.com/tuan.thu2', '_blank');
+        window.open('https://www.instagram.com/tuan.thu2/', '_blank');
     });
 });
 document.addEventListener('DOMContentLoaded', function () {
