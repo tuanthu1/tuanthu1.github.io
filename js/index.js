@@ -5977,7 +5977,7 @@ displayInfo();
 
 
 console.log('%c* 𝑺𝑻𝑶𝑷 𝑪𝑶𝑷𝒀 𝑺𝑶𝑼𝑹𝑪𝑬 !', 'color: red; font-size: 50px; font-family: sans-serif; text-shadow: 1px 1px 5px #000;');
-console.log('%c- Có vẻ như bạn đang cố tình ăn cắp mã nguồn của tôi </ Tien Minh >.', 'color: #444; font-size: 25px; font-family: sans-serif;');
+console.log('%c- Có vẻ như bạn đang cố tình ăn cắp mã nguồn của tôi </ Tuan thu >.', 'color: #444; font-size: 25px; font-family: sans-serif;');
 console.log('%c- Đó là hành vi không tốt, cần source inbox facebook để xin.\n', 'color: #444; font-size: 25px; font-family: sans-serif;');
 
 document.addEventListener('DOMContentLoaded', function () {
