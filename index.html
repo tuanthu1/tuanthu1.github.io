@@ -199,36 +199,20 @@
           <br />
           <strong>All rights reserved © 2025 </strong>
           <br>
-          <strong > <p id="visit-info" style="display: none;">Số lượt truy cập: <span id="visit-count">0</span> </p></strong>
+          <strong >Số lượt truy cập: <span id="visit-count">0</span></strong>
         </span>
     </footer>
   </div>
   </div>
   </div>
   <script>
-        async function getVisitorIP() {
-            let response = await fetch('https://api64.ipify.org?format=json');
-            let data = await response.json();
-            return data.ip;
-        }
-
-        async function trackVisit() {
-            let ip = await getVisitorIP();
-            if (ip === "171.225.199.181") {
-                let visitInfo = document.getElementById("visit-info");
-                visitInfo.style.display = "block";
-
-                let visitCount = localStorage.getItem("visitCount");
-                if (!visitCount) {
-                    visitCount = 0;
-                }
-                visitCount++;
-                localStorage.setItem("visitCount", visitCount);
-                document.getElementById("visit-count").textContent = visitCount;
+        function trackVisit() {
+            let visitCount = localStorage.getItem("visitCount") || 0;
+            visitCount++;
+            localStorage.setItem("visitCount", visitCount);
+            console.log("Số lượt truy cập là: " + visitCount);
             }
-        }
-
-        trackVisit();
+        document.addEventListener("DOMContentLoaded", trackVisit);
     </script>
   <script type="text/javascript">
     var fps = document.getElementById("fps");
