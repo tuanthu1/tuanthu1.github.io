@@ -207,7 +207,7 @@ transition: all .25s cubic-bezier(.08, .59, .29, .99);
   -webkit-tap-highlight-color: transparent;
 }
 
-.Youtube {
+.Locket {
   position: relative;
   background-color: black;
   color: var(--accentColor);
@@ -1542,6 +1542,7 @@ SKILLS START
 .skill-name {
   font-size: 17px;
   font-weight: 700;
+  text-align: center;
   text-transform: uppercase;
   text-shadow: -1px 0 5px white,
     0 1px 5px white;
@@ -1560,6 +1561,7 @@ SKILLS START
   height: 12px;
   border-radius: 8px;
   width: 0;
+  text-align: center;
   transition: 1s linear;
   position: relative;
 }

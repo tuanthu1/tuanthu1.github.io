@@ -5921,9 +5921,9 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 document.addEventListener('DOMContentLoaded', function () {
-    var telegramDiv = document.querySelector('.Youtube');
+    var telegramDiv = document.querySelector('.Locket');
     telegramDiv.addEventListener('click', function () {
-        window.open('https://www.youtube.com/', '_blank');
+        window.open('https://locket.cam/tuanthu2', '_blank');
     });
 });
 document.addEventListener('DOMContentLoaded', function () {
@@ -5983,7 +5983,7 @@ console.log('%c- Đó là hành vi không tốt, cần source inbox facebook đ�
 document.addEventListener('DOMContentLoaded', function () {
     var overlay = document.getElementById('overlay');
     var text = document.getElementById('text');
-    var audio = new Audio('./audio/Music.mp3');
+    var audio = new Audio('./audio/Music.m3');
 
     overlay.addEventListener('click', function () {
         audio.loop = true;
